@@ -3,18 +3,18 @@
 
 Change 
 
-#include "application.h"
+\#include "application.h"
 
 to 
 
-#include "Particle.h"
+\#include "Particle.h"
 
 tri-Comment out /// any header from the following list or starting with 
-#include "avr/..."
+\#include "avr/..."
 
 
-#include "cloud.h"
-#include "interrupts.h"
+\///#include "cloud.h"
+\//#include "interrupts.h"
 #include "string.h"
 #include "power.h"
 #include "fuel.h"  
